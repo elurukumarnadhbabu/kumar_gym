@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:50px;
+}
+img
+{
+	max-width:100%;
+}
+p
+{
+	font-size: 16px;
+    color: #505050;
+    line-height: 2;
+}
+h4
+{
+	font-size:24px;
+}
+.navbar-brand
+{
+	width:170px;
+}
+.navbar-default
+{
+	background:#fff;
+}
+.bgfooter
+{
+	background-color:#f6f9fa;
+	padding-top:120px;
+	padding-bottom: 20px;
+	padding-right:0px;
+	padding-left:0px;
+}
+.bgfooter p
+{
+	font-size:13px;
+	color:#007bff;
+	font-size:16px;
+}
+.bgfooter h6
+{
+	color:#fff;
+}
+.bgfooter a
+{
+	color:#007bff;
+	text-decoration: none;
+}
+.bgfooter li a
+{
+	font-size:13px;
+	color:#007bff;
+	font-size:16px;
+}
+.bgfooter li a:hover
+{
+	color:#000;
+}
+.media
+{
+	margin-top:0px !important;
+}
+.bgfooter .media a
+{
+ font-size:35px;
+}
+.bgfooter a:hover
+{
+	color:#000000;  
+}
+.bgfooter h5
+{
+	color:#000;
+	margin-bottom:5px;
+	font-size:25px;
+}
+.bgfooter2
+{
+	background-color:#007bff;
+	color:#fff;
+	padding: 15px 0;
+}
+.Barformat
+{
+	text-align:center;
+}
+.Barformat li a
+{
+	text-transform: uppercase;
+    letter-spacing: 1px;
+	font-weight: 600;
+	border: none !important;
+	border-radius : 4px !important; 
+	width:auto !important;
+	padding: 5px 5px !important;
+    margin-top: 10px;
+	margin-right:10px;
+	margin-left: 10px;
+	transition: all 0.3s;
+}
+.active
+{
+	color:#fff !important;
+}
+.Barformat li a.active,
+.Barformat li a:hover
+{
+	background-color: #007bff !important;
+	color:#fff !important;
+}
+.btn-style
+{
+	background-color:#007bff;
+    color: #fff !important;
+    border: 1px solid #2f5af3;
+}
+.btn-style:hover
+{
+	background-color:#2f5af3;
+}
+.s2
+{
+	padding:76px 0;
+	background:#fff;
+}
+.s2 h2
+{
+	font-size: 48px;
+	color:#353535;
+    line-height: 1;
+	padding-bottom:50px;
+}
+.s2 h2 span
+{
+	background: #007bff;
+	color:#fff;
+    display: inline-block;
+    padding: 0 4px;
+}
+.s2 .Box
+{
+	text-align: center;
+    margin-bottom: 40px;
+}
+.Box .icon
+{
+	width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f9fa;
+    margin: 0 auto 25px;
+    transition: 0.4s;
+}
+.Box .icon:hover
+{
+	background:#007bff;
+	color:#fff;
+	transition: 0.4s;
+
+}
+.Box h4
+{
+	margin-bottom: 25px;
+}
+.Box p
+{
+	margin-bottom: 0;
+}
+.s3
+{
+	padding: 110px 0 113px;
+	background-image:url(../images/Section3_bg.jpg);
+}
+.s3 h2
+{
+	font-size: 50px;
+    margin-bottom: 52px;
+    color: #fff;
+	font-weight:700;
+    margin-right: 70px;
+	margin-top: -90px;
+}
+.s3 h2 span
+{
+	color:#007bff;
+}
+.s3 ul
+{
+	margin-bottom: 40px;
+}
+.s3 ul li
+{
+	margin-bottom: 19px;
+    color: #fff;
+	font-size:17px;
+}
+.s3 ul li img
+{
+	margin-right:19px;
+}
+.s4
+{
+	background: #f6f9fa;
+    padding: 91px 0 5px;
+}
+.s4 .numbercross .num
+{
+	display: inline-block;
+	font-size: 28px;
+    margin-top: 15px;
+    background: #007bff;
+    padding: 4px 11px;
+	color:#fff;
+    margin-bottom: 2px;	
+}
+.s4 .numbercross
+{
+	text-align: center;
+    margin-bottom: 30px;
+	margin-top:-40px;
+}
+.s4 .numbercross h2
+{
+	display: inline-block;
+    background: #007bff;
+    padding-top: 6px;
+    padding-bottom: 9px;
+	color:#fff;
+    margin-bottom: 2px;	
+}
+.s4 .numbercross h2 p
+{
+	margin-bottom: 0;
+    font-size: 18px;	
+}
+.s5
+{
+	padding: 121px 0 75px;
+}
+.s5 .s5title
+{
+	margin-bottom: 78px;
+}
+.s5 .s5title h2
+{
+	font-size: 48px;
+    line-height: 1;
+}
+.s5 .s5title h2 span
+{
+	background: #007bff;
+	color:#fff;
+    padding: 0 4px;
+}
+.s5 .trainerborder
+{
+	text-align: center;
+    padding: 0 5px;
+    margin-bottom: 30px;
+}
+.s5 .trainerborder h4
+{
+	margin-bottom:20px;
+	font-weight:600;
+}
+.s5 .trainerborder .trainerpic
+{
+	width:200px;
+    height:200px;
+	overflow: hidden;
+    border-radius:50%;
+    margin:0 auto 30px;
+}
+.s5 .trainerborder .trainerpic img
+{
+	max-width:100%;
+}
+.s6
+{
+	background: #f6f9fa;
+    position: relative;
+	padding-top: 105px;
+    padding-bottom: 105px;
+}
+.s6 .titles6 h2
+{
+	font-size: 48px;
+    line-height: 1;
+	margin-top: 17px;
+}
+.s6 .titles6 h2 span
+{
+	background:#007bff;
+	color:#fff;
+    padding:0 4px;
+}
+.s6 .titles6 p
+{
+	padding-top:25px;
+}
+.s6 .bmicalc
+{
+	background: #242424;
+    padding: 48px 53px 40px;
+    margin-top: 22px;
+}
+.s6 .bmi-btn
+{
+	background:#007bff;
+	font-weight:700;
+	color:#fff !important;
+}
+.s6 .bmi-btn:hover
+{
+	background:#2f5af3;
+}
+.s6 .bmicalctext input,
+.s6 .bmicalctext .bmi-btn
+{
+	font-size: 16px;
+	text-align:center;
+	width: 100%;
+    height: 57px;
+    margin-bottom: 30px;
+    padding: 0 24px;
+    border: none;
+    min-width: 100%;
+}
+.s6 .bmicalctext p
+{
+	color:#fff;
+    font-style:italic;
+    margin-bottom:0;
+    padding-top:9px;
+}
+.s7
+{
+	padding:20px;
+	background-color:#fff;
+}
+.s7 .bmi-btn
+{
+	display: inline-block;
+    border: none;
+	margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    min-width: 228px;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    background: #007bff;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+}
+.s7 .bmi-btn:hover
+{
+	background:#2f5af3;
+}
+.s7 h2
+{
+	color:#000 !important;
+	font-size: 48px;
+    line-height: 1;
+}
+.s7 h2 span
+{
+	background: #007bff;
+	color:#fff !important;
+    display: inline-block;
+    padding: 0 4px;
+}
+.s7 .newsletter
+{
+	margin-left:auto;
+}
+.s7 .newsletter input
+{
+	width: 300px;
+    height: 64px;
+    padding: 10px 90px;
+	margin-top: 15px;
+	margin-right: -4px;
+    border: 1px solid #007bff;
+}
+.s8 .map-container-3 
+{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+}
+.s8 .padding
+{
+padding-bottom:60px;
+}
+.s9
+{
+	background:url(../images/hero-bg.jpg) no-repeat;
+	background-size:cover;
+	background-position:top center;
+	height: 272px;
+    text-align: center;
+    padding-top: 75px;
+}
+.s9 h1
+{
+	display: inline-block;
+    position: relative;
+    font-size: 72px;
+    color: #fff;
+    padding-bottom: 0px;
+	border-bottom:6px solid #007bff;
+}
+.s10
+{
+	padding: 121px 0 118px;
+}
+.s10 h2
+{
+	font-size: 48px;
+    line-height: 1;
+}
+.s10 h2 span
+{
+	background:#007bff;
+	color:#fff;
+	display: inline-block;
+    padding: 0 4px;
+}
